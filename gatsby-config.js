@@ -21,11 +21,18 @@ module.exports = {
         name: `Martin-John Hearty`,
         short_name: `MJH`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FFFFFF`,
+        theme_color: `#7E01FE`,
         display: `standalone`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
+        icon: `src/images/mjh-icon.png`, // This path is relative to the root of the site.
+      }
+    },
+    {
+      resolve: "@rhysforyou/gatsby-plugin-safari-site-icon",
+      options: {
+        icon: "./src/images/safari-pinned-tab.svg",
+        color: "#7E01FE"
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
